@@ -25,7 +25,7 @@ def gt_formatter(gt, nref, nalt, hap, filt, bal, p, ll):
     elif gt == 'AA':
         GT = '1|1'
     elif gt == 'RB':
-        GT = './0'
+        GT = '0/.'
     elif gt == 'Ukn':
         GT = "./."
     else:
