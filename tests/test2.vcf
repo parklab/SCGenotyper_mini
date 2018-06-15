@@ -1,0 +1,43 @@
+##fileformat=VCFv4.2
+##ALT=<ID=NON_REF,Description="Represents any possible alternative allele at this location">
+##FILTER=<ID=PASS,Description="All filters passed">
+##FILTER=<ID=LowQual,Description="Low quality">
+##FORMAT=<ID=AD,Number=.,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=BAL,Number=1,Type=Float,Description="Estimate Allele Balance">
+##FORMAT=<ID=FT,Number=1,Type=Str,Description="Individual filter, PRB > 13=PASS otherwise LOWQUAL">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
+##FORMAT=<ID=PRB,Number=1,Type=Integer,Description="PHRED-scaled probability that event is an amplifaction artifact">
+##contig=<ID=1,length=249250621,assembly=b37>
+##contig=<ID=2,length=243199373,assembly=b37>
+##contig=<ID=3,length=198022430,assembly=b37>
+##contig=<ID=4,length=191154276,assembly=b37>
+##contig=<ID=5,length=180915260,assembly=b37>
+##contig=<ID=6,length=171115067,assembly=b37>
+##contig=<ID=7,length=159138663,assembly=b37>
+##contig=<ID=8,length=146364022,assembly=b37>
+##contig=<ID=9,length=141213431,assembly=b37>
+##contig=<ID=10,length=135534747,assembly=b37>
+##contig=<ID=11,length=135006516,assembly=b37>
+##contig=<ID=12,length=133851895,assembly=b37>
+##contig=<ID=13,length=115169878,assembly=b37>
+##contig=<ID=14,length=107349540,assembly=b37>
+##contig=<ID=15,length=102531392,assembly=b37>
+##contig=<ID=16,length=90354753,assembly=b37>
+##contig=<ID=17,length=81195210,assembly=b37>
+##contig=<ID=18,length=78077248,assembly=b37>
+##contig=<ID=19,length=59128983,assembly=b37>
+##contig=<ID=20,length=63025520,assembly=b37>
+##contig=<ID=21,length=48129895,assembly=b37>
+##contig=<ID=22,length=51304566,assembly=b37>
+##contig=<ID=X,length=155270560,assembly=b37>
+##contig=<ID=Y,length=59373566,assembly=b37>
+##contig=<ID=MT,length=16569,assembly=b37>
+##reference=file:///home/mk446/BiO/Install/GATK-bundle/2.8/b37/human_g1k_v37_decoy.fasta
+##source=SelectVariants
+##run_mini.py -v /home/mas138/orchestra/data/BSM/CommonExperiment/GATK_HC/CE_germline.phased.bcf -B test_bams.txt -r test_pos3.txt -o test2.vcf 
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	D4_MDA_common_sorted-final-all	E8_MDA_common_sorted-final-all	F3_MDA_common_sorted-final-all	C12_MDA_common_sorted-final-all	E9_MDA_common_sorted-final-all	E10_MDA_common_sorted-final-all	E12_MDA_common_sorted-final-all	
+12	16869088	.	G	T	.	.	.	GT:AD:FT:BAL:PRB:PL	0|1:25,7:LOWQUAL:0.16:3:35,3,0,304	./0:4,1:LOWQUAL:0.44:3:5,0,3,50	0|1:36,8:LOWQUAL:0.15:3:34,2,0,451	0|1:9,18:PASS:0.62:48:200,93,0,63	./.:0,0:NODP:.:.:.,.,.,.	0|1:71,9:LOWQUAL:0.12:1:24,0,0,957	1|1:5,27:PASS:0.97:81:331,167,2,0	
+1	27549935	.	A	C	.	PASS	.	GT:AD:FT:BAL:PRB:PL	1|1:0,13:PASS:0.5:58:195,115,37,0	1|1:0,69:PASS:0.71:277:1033,612,92,0	1|1:0,34:PASS:0.62:140:504,300,65,0	1|1:0,3:PASS:0.71:16:42,26,4,0	1|1:0,64:PASS:0.9:255:942,562,20,0	1|1:0,38:PASS:0.78:155:563,334,36,0	1|1:0,52:PASS:0.69:211:778,461,75,0	
+10	28097311	.	A	G	.	NOSNP	.	GT:AD:FT:BAL:PRB:PL	./.:0,126:NOSNP:.:.:.,.,.,.	./.:0,11:NOSNP:.:.:.,.,.,.	./.:0,140:NOSNP:.:.:.,.,.,.	./.:0,48:NOSNP:.:.:.,.,.,.	./.:0,30:NOSNP:.:.:.,.,.,.	./.:0,66:NOSNP:.:.:.,.,.,.	./.:0,14:NOSNP:.:.:.,.,.,.	
+1	196882197	.	A	G	.	LOWQUAL	.	GT:AD:FT:BAL:PRB:PL	0|0:18,0:LOWQUAL:0.14:7:0,9,10,271	0|0:12,0:LOWQUAL:0.3:5:0,5,17,179	0|0:33,2:LOWQUAL:0.05:8:0,9,2,478	0|0:32,0:LOWQUAL:0.45:10:0,15,80,482	0|0:10,0:LOWQUAL:0.09:5:0,5,3,151	0|0:19,0:LOWQUAL:0.07:7:0,8,3,286	0|0:33,0:LOWQUAL:0.23:11:0,14,33,495	

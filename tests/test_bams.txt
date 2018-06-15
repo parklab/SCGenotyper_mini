@@ -1,0 +1,7 @@
+/n/data1/hms/dbmi/park/DATA/BSMCommonExperiment/ReferenceTissueProject/Alignment/Vaccarino/Bam2Fastq/D4_MDA_common_sorted-final-all.bam
+/n/data1/hms/dbmi/park/DATA/BSMCommonExperiment/ReferenceTissueProject/Alignment/Vaccarino/Bam2Fastq/E8_MDA_common_sorted-final-all.bam
+/n/data1/hms/dbmi/park/DATA/BSMCommonExperiment/ReferenceTissueProject/Alignment/Vaccarino/Bam2Fastq/F3_MDA_common_sorted-final-all.bam
+/n/data1/hms/dbmi/park/DATA/BSMCommonExperiment/ReferenceTissueProject/Alignment/Vaccarino/Bam2Fastq/C12_MDA_common_sorted-final-all.bam
+/n/data1/hms/dbmi/park/DATA/BSMCommonExperiment/ReferenceTissueProject/Alignment/Vaccarino/Bam2Fastq/E9_MDA_common_sorted-final-all.bam
+/n/data1/hms/dbmi/park/DATA/BSMCommonExperiment/ReferenceTissueProject/Alignment/Vaccarino/Bam2Fastq/E10_MDA_common_sorted-final-all.bam
+/n/data1/hms/dbmi/park/DATA/BSMCommonExperiment/ReferenceTissueProject/Alignment/Vaccarino/Bam2Fastq/E12_MDA_common_sorted-final-all.bam

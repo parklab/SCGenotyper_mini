@@ -1,0 +1,2 @@
+/n/data1/hms/dbmi/park/DATA/BSMCommonExperiment/ReferenceTissueProject/Alignment/Vaccarino/Bam2Fastq/E8_MDA_common_sorted-final-all.bam
+/n/data1/hms/dbmi/park/DATA/BSMCommonExperiment/ReferenceTissueProject/Alignment/Vaccarino/Bam2Fastq/E9_MDA_common_sorted-final-all.bam

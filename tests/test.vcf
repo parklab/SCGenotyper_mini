@@ -1,0 +1,40 @@
+##fileformat=VCFv4.2
+##ALT=<ID=NON_REF,Description="Represents any possible alternative allele at this location">
+##FILTER=<ID=PASS,Description="All filters passed">
+##FILTER=<ID=LowQual,Description="Low quality">
+##FORMAT=<ID=AD,Number=.,Type=Integer,Description="Allelic depths for the ref and alt alleles in the order listed">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=BAL,Number=1,Type=Float,Description="Estimate Allele Balance">
+##FORMAT=<ID=FT,Number=1,Type=Str,Description="Individual filter, PRB > 13=PASS otherwise LOWQUAL">
+##FORMAT=<ID=PL,Number=G,Type=Integer,Description="Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification">
+##FORMAT=<ID=PRB,Number=1,Type=Integer,Description="PHRED-scaled probability that event is an amplifaction artifact">
+##contig=<ID=1,length=249250621,assembly=b37>
+##contig=<ID=2,length=243199373,assembly=b37>
+##contig=<ID=3,length=198022430,assembly=b37>
+##contig=<ID=4,length=191154276,assembly=b37>
+##contig=<ID=5,length=180915260,assembly=b37>
+##contig=<ID=6,length=171115067,assembly=b37>
+##contig=<ID=7,length=159138663,assembly=b37>
+##contig=<ID=8,length=146364022,assembly=b37>
+##contig=<ID=9,length=141213431,assembly=b37>
+##contig=<ID=10,length=135534747,assembly=b37>
+##contig=<ID=11,length=135006516,assembly=b37>
+##contig=<ID=12,length=133851895,assembly=b37>
+##contig=<ID=13,length=115169878,assembly=b37>
+##contig=<ID=14,length=107349540,assembly=b37>
+##contig=<ID=15,length=102531392,assembly=b37>
+##contig=<ID=16,length=90354753,assembly=b37>
+##contig=<ID=17,length=81195210,assembly=b37>
+##contig=<ID=18,length=78077248,assembly=b37>
+##contig=<ID=19,length=59128983,assembly=b37>
+##contig=<ID=20,length=63025520,assembly=b37>
+##contig=<ID=21,length=48129895,assembly=b37>
+##contig=<ID=22,length=51304566,assembly=b37>
+##contig=<ID=X,length=155270560,assembly=b37>
+##contig=<ID=Y,length=59373566,assembly=b37>
+##contig=<ID=MT,length=16569,assembly=b37>
+##reference=file:///home/mk446/BiO/Install/GATK-bundle/2.8/b37/human_g1k_v37_decoy.fasta
+##source=SelectVariants
+##run_mini.py -v /home/mas138/orchestra/data/BSM/CommonExperiment/GATK_HC/CE_germline.phased.bcf -B test_bams.txt -r test_pos.txt -o test.vcf 
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	D4_MDA_common_sorted-final-all	E8_MDA_common_sorted-final-all	F3_MDA_common_sorted-final-all	C12_MDA_common_sorted-final-all	E9_MDA_common_sorted-final-all	E10_MDA_common_sorted-final-all	E12_MDA_common_sorted-final-all	
+7	112461481	.	G	T	.	.	.	GT:AD:FT:BAL:PRB:PL	0|0:14,0:LOWQUAL:0.41:10:0,15,70,486	1|0:13,14:PASS:0.71:51:285,100,0,248	0|0:14,0:LOWQUAL:0.99:10:0,14,681,479	0|0:16,0:LOWQUAL:0.19:12:0,16,29,555	0|0:44,1:PASS:0.55:20:0,33,314,1468	0|0:92,0:PASS:0.50:49:0,95,601,3174	0|0:13,0:LOWQUAL:0.98:10:0,13,521,451
